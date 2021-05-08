@@ -1,0 +1,79 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body{
+  background-image: url("image/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.container{
+  background-color: rgba(1, 1, 1, 0.6);
+  border-radius: 20px;
+  padding: 80px;
+  margin:auto;
+  width: 1000px;
+  margin-bottom: 100px;
+  margin-top: 25px;
+}
+
+header{
+  text-align: center;
+  color:lime;
+}
+
+.logo{
+  height: 91px;
+  width: 200px;
+}
+
+
+.menu{
+  text-align: center;
+  background-color: lime;
+  padding: 10px
+
+}
+
+main{
+  color: white
+}
+
+.yellow, .green, .red{
+  
+  width: 1000px;
+  height: 20px;
+  border-radius: 5px;
+  height: 25px;
+
+}
+
+
+
+.yellow {
+  background: orange;
+  width: 40%;
+
+}
+
+.green {
+  background: green;
+  width: 65%;
+}
+
+.red {
+  background: red;
+  width: 20%;
+}
+
+h2:before{
+  content: "\25A1";
+
+}
+
+p:before{
+  content: '\21A6';
+}
